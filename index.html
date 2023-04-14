@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <!-- eksterns css -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+
+    <div class="carousel" style="margin: 0 auto;">
+        <img src="https://d21yqjvcoayho7.cloudfront.net/wp-content/uploads/2012/11/AMC-Breaking_Bad-5_1437.jpg" alt="" class="carousel_img" id="image">
+        <p id="description">My name is Walter Hartwell White. I live at 308 Negra Aroya Lane, Albuquerque, New Mexico, 87104.</p>
+        
+        <div class="buttons">
+            <button class="carousel_backButton" id="back" onclick="fade('image', 'right')"><span class="material-symbols-outlined">arrow_back</span></button>
+            <div class="carousel_radioButtons">
+            </div>
+            <button class="carousel_forwardButton" id="forward" onclick="return fade('image', 'left')"><span class="material-symbols-outlined">arrow_forward</span></button>
+        </div>
+    </div>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
